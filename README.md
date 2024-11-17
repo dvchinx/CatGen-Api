@@ -29,7 +29,7 @@ El título del `JFrame` corresponde al código único de la imagen obtenida desd
 1. Tener instalada la **JDK 11 o superior**.  
 2. Clonar este repositorio:  
    ```bash
-   git clone https://github.com/tu-usuario/CatGen-Api.git
+   git clone https://github.com/dvchinx/CatGen-Api.git
    cd CatGen-Api
 
 ## ⚙️ Dependencias
