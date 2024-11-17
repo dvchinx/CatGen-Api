@@ -1,23 +1,56 @@
-<h1 align="center">CAT GENERATOR APP</h1>
+# 🐱 CatGen-Api  
 
-<h2>CONTACT</h2>
+**¡Una aplicación en Java para los amantes de los gatos!**  
 
-**Discord:** dvchinx
+CatGen-Api permite conectarse a **TheCatAPI** y muestra una imagen aleatoria de un gato en un `JFrame`. </br>
+El título del `JFrame` corresponde al código único de la imagen obtenida desde la API.  
 
-<h2>INFO</h2>
-En la aplicación podemos generar imágenes infinitas de gatos
+<img src="https://github.com/dvchinx/CatGen-Api/blob/main/imgs/3.png" alt="ScreenShot" width="250"> <img src="https://github.com/dvchinx/CatGen-Api/blob/main/imgs/2.png" alt="ScreenShot" width="250"> <img src="https://github.com/dvchinx/CatGen-Api/blob/main/imgs/1.png" alt="ScreenShot" width="250">
 
-accediendo a la api: TheCatApi.
+---
 
-Así como también marcar alguna como favorita y guardarla.
+## 🚀 Características  
+- **Conexión con TheCatAPI**: Recupera imágenes aleatorias de gatos con una sencilla integración.  
+- **Interfaz Swing**: Muestra las imágenes directamente en un `JFrame`.  
+- **Título descriptivo**: El `JFrame` muestra el código único de la imagen obtenida desde la API.  
+- **Librerías modernas**: Utiliza `javax.swing`, `google.gson` y `squareup.okhttp` para una implementación robusta.  
 
-En el titulo del Frame podemos ver el identificador de la imagen generada.
+---
 
+## 🛠️ Tecnologías utilizadas  
+- **Java 11+**  
+- **Google Gson** para manejar respuestas JSON.  
+- **Square OkHttp** para realizar solicitudes HTTP.  
+- **Javax.swing** para la interfaz gráfica.  
 
+---
 
-<h2>MUESTRA DE LA APP</h2>
+## 📋 Requisitos previos  
+1. Tener instalada la **JDK 11 o superior**.  
+2. Clonar este repositorio:  
+   ```bash
+   git clone https://github.com/tu-usuario/CatGen-Api.git
+   cd CatGen-Api
 
-![ScreenShot](https://github.com/dvchinx/CatGen-Api/blob/main/imgs/1.png)
-![ScreenShot](https://github.com/dvchinx/CatGen-Api/blob/main/imgs/2.png)
-![ScreenShot](https://github.com/dvchinx/CatGen-Api/blob/main/imgs/3.png)
+## ⚙️ Dependencias
+Si estás usando Maven, agrega las siguientes dependencias al archivo pom.xml:
 
+  ```
+  <dependencies>
+
+        <!-- Gson para parsear JSON -->
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.9</version>
+    </dependency>
+        
+        <!-- OkHttp para realizar solicitudes HTTP -->
+    <dependency>
+        <groupId>com.squareup.okhttp3</groupId>
+        <artifactId>okhttp</artifactId>
+        <version>4.10.0</version>
+    </dependency>
+
+  </dependencies>
+  ```
